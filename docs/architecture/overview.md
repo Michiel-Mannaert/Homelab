@@ -1,4 +1,4 @@
-# Homelab Architecture Overview
+# Enterprise Homelab Architecture Overview
 
 ## Introduction
 This homelab consists of 4 Proxmox nodes designed to simulate a small enterprise infrastructure environment.
@@ -28,14 +28,13 @@ This homelab consists of 4 Proxmox nodes designed to simulate a small enterprise
 
 ## Main Services
 
-- Active Directory (Windows Server)
-- DNS / DHCP
-- Docker services stack
-- Kubernetes cluster (k3s)
-- Security lab (SIEM + pentesting tools)
-- Backup infrastructure (Proxmox Backup + NAS)
+### Service Placement
 
----
+- Active Directory → Node 1 (Kenobi)
+- Docker Stack → Node 1 (Kenobi)
+- Security Lab (Kali, Wazuh, etc.) → Node 2 (Anakin)
+- Backup Infrastructure (Proxmox Backup, TrueNAS) → Node 3 (Yoda)
+- Kubernetes Cluster (k3s) → Node 4 (Maul)
 
 ## Network Design
 
@@ -44,3 +43,13 @@ This homelab consists of 4 Proxmox nodes designed to simulate a small enterprise
 - Internal management network
 - Isolated security network
 - Kubernetes network segment
+
+## Purpose
+
+This environment is built to replicate real-world enterprise infrastructure for learning:
+
+- System administration
+- Network engineering
+- Cybersecurity (blue & red team)
+- DevOps & automation
+- Kubernetes orchestration
