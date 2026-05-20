@@ -1,4 +1,4 @@
-# Homelab Infrastructure
+# Homelab journey
 
 ## Overview
 
