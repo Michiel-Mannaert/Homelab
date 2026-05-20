@@ -32,8 +32,8 @@ This homelab consists of 4 Proxmox nodes designed to simulate a small enterprise
 
 - Active Directory → Node 1 (Kenobi)
 - Docker Stack → Node 1 (Kenobi)
-- Security Lab (Kali, Wazuh, etc.) → Node 2 (Anakin)
-- Backup Infrastructure (Proxmox Backup, TrueNAS) → Node 3 (Yoda)
+- Security Lab (Kali, Wazuh, etc.) → Node 2 (Yoda)
+- Backup Infrastructure (Proxmox Backup, TrueNAS) → Node 3 (Anakin)
 - Kubernetes Cluster (k3s) → Node 4 (Maul)
 
 ## Network Design
