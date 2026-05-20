@@ -12,7 +12,7 @@ This homelab consists of 4 Proxmox nodes designed to simulate a small enterprise
 | Node 1 | Kenobi | Core Infrastructure |
 | Node 2 | Anakin | Security & Pentesting |
 | Node 3 | Yoda   | Storage & Backups |
-| Node 4 | Maul   | Kubernetes & Experiments & Development |
+| Node 4 | Maul   | Kubernetes & Experiments |
 
 ---
 
